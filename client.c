@@ -103,14 +103,4 @@ void connectToServer(int sock, struct sockaddr_in addr){
 	printf("Connected to the server.\n");
 }
 
-int sendEmail(int sock){
-	char message[1024];
-	printf("Email address: ");
-	fgets(message, 1024, stdin);
-	ssize_t status = send(sock, message, strlen(message), 0);
-	if (status == -1){
-		printf("Something went wrong with establishing your email.");
-		return -1;
-	}
-	return 0;
 }
