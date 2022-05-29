@@ -1,2 +1,0 @@
-# POPprotocol
-POP protocol 
