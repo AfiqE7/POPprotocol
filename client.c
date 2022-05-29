@@ -9,7 +9,7 @@ int sendEmail(int);
 void handleServ(int);
 
 int main(){
-	char *ip = "192.168.56.103";
+	char *ip = "192.168.56.101";
 	
 	int port = 110;
 	int sock;
